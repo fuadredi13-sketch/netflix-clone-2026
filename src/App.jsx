@@ -1,8 +1,14 @@
-
+import "./index.css"
 import './App.css'
+import Home from "./components/home/Home.jsx"
 
 function App() {
-  return <h1>Hello</h1>
+  return (
+    <div className="App">
+      <Home />
+    </div>
+  )
 }
 
 export default App
+

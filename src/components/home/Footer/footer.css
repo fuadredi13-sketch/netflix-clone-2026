@@ -1,0 +1,58 @@
+.footer_outer_container {
+  background-color: #111;
+  padding: 40px 60px;
+}
+
+.footer_inner_container {
+  max-width: 1000px;
+}
+
+.footer_icons {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.footer_icons svg {
+  font-size: 28px;
+  cursor: pointer;
+}
+
+.footer_data {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin-bottom: 20px;
+}
+
+.footer_data ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer_data ul li {
+  color: #757575;
+  font-size: 13px;
+  margin-bottom: 12px;
+  cursor: pointer;
+}
+
+.footer_data ul li:hover {
+  text-decoration: underline;
+}
+
+.service_code button {
+  background: transparent;
+  border: 1px solid #757575;
+  color: #757575;
+  padding: 6px 12px;
+  font-size: 13px;
+  cursor: pointer;
+  margin-bottom: 16px;
+}
+
+.copy-write {
+  color: #757575;
+  font-size: 13px;
+}
