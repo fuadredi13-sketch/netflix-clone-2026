@@ -1,14 +1,14 @@
-/* *App{
+*App{
      margin: 0;
   padding: 0;
 }
 
 html, body, #root {
-  background-color: white;
-  color: black;
-} */
+  background-color: rgb(14, 14, 14);
+  color: rgb(221, 201, 201);
+} 
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Lexend:wght@100;200;300;400;500;600;700;800;900&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Lexend:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 :root {
   --font-base: 'Lexend', sans-serif;
@@ -16,4 +16,4 @@ html, body, #root {
   --bg-color: #111;
   --primary-color: #ffffff;
   --secondary-color: #e50914;
-}
+} */

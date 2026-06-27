@@ -1,11 +1,12 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  /* box-sizing: border-box;
+  background-color: #a11010; */
 }
 
 .header_outer_container {
-  /* background-color: #d31919; */
+  background-color: #060505;
   position: sticky;
   top: 0;
   z-index: 100;
