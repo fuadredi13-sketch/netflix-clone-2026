@@ -1,17 +1,18 @@
 {
-  "homepage": "https://fuadredi13-sketch.github.io/https://github.com/fuadredi13-sketch/netflix-clone-2026",
+  "homepage": "https://fuadredi13-sketch.github.io/netflix-clone-2026",
   "name": "netflix-clone-2026",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "scripts": {
-    "dev": "vite",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
-    "build": "vite build",
-    "lint": "eslint .",
-    "preview": "vite preview"
-  },
+
+"scripts": {
+  "dev": "vite",
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d dist",
+  "build": "vite build",
+  "lint": "eslint .",
+  "preview": "vite preview"
+},
   "dependencies": {
     "@emotion/react": "^11.14.0",
     "@emotion/styled": "^11.14.1",
@@ -23,6 +24,7 @@
     "react-dom": "^19.2.7",
     "react-youtube": "^10.1.0"
   },
+
   "devDependencies": {
     "@eslint/js": "^10.0.1",
     "@types/react": "^19.2.17",
