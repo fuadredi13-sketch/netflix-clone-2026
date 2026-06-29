@@ -5,5 +5,6 @@ export default defineConfig({
   plugins: [react()],
   server: {
     port: 4000
-  }
+  },
+  base: '/netflix-clone-2026/'
 })
